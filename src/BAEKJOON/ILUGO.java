@@ -1,16 +1,14 @@
 package BAEKJOON;
 
-import java.io.StringBufferInputStream;
+
 import java.util.*;
 
 public class ILUGO {
   public static void main(String[] args){
 
     Stack<String> stack = new Stack<>();
-
-
     Scanner sc = new Scanner(System.in);
-    int w = Integer.parseInt(sc.nextLine());
+    int w = sc.nextInt();
 
     for(int i=0; i<w; i++){
       String s = sc.nextLine();
